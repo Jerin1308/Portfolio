@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/4d161258e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="02/2U7A1667.JPG" class="Profile">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="header-text">
+            <P>Portfolio</P>
+            <h1>Hi I'm <span>Jerin Abraham</span><br> from Chennai</h1>
+        </div>
+    </div>
+</div>
+
+<!-- .................About................. -->
+
+<div id="About">
+    <div class="contain">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="02/IMG_5018.JPG" class="demoIMG">
+            </div>
+            <div class="about-col-2">
+                <h1 class = "sub-title">About Me</h1>
+                <p> Hello! I'm Jerin Abraham, a recent graduate with a passion for Full-stack Developer.
+                    I may be new to the industry, but my enthusiasm, creativity, and eagerness to learn make me a valuable addition to any team.
+                    I'm eager to collaborate, learn from experienced professionals, and contribute to exciting projects that push boundaries and drive positive change.
+                    Let's connect and explore how my skills and enthusiasm can benefit your team.</p>
+                <div class="tab-title">
+                    <p class ="tab-links active-link" onclick="opentab('skill')">Skill</p>
+                    <p class ="tab-links" onclick="opentab('education')">Education</p>
+                    <p class ="tab-links" onclick="opentab('project')">Project</p>
+                </div>
+                <div class="tab-contents active-tab" id="skill">
+                    <ul>
+                        <li><span>Web Development</span><br>HTML, CSS, Javascript</li>
+                        <li><span>Web App</span><br>Python, Java</li>
+                        <li><span>Database managment</span><br>MySQL</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Hindustan College of arts and science</span><br>2020 - 2023</li>
+                        <li><span>Python Full-stack Intern</span><br>Dec2023 - Feb2023</li>
+                        <li><span>Java Full-stack course</span><br>Mar2024 - Current</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="project">
+                    <ul>
+                        <li><span>Html, CSS, Javascript</span><br>Portfolio</li>
+                        <li><span>Python</span><br>Web Scraping</li>
+                        <li><span>Java</span><br>Bus Ticket Reservation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ...................Portfolio..................... -->
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="02/IMG3.jpg">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>This Portfolioid is to showcase the designing skill using the Html and CSS</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work2">
+            <img src="02/IMG4.jpg" >
+                <div class="layer">
+                    <h3>Web Scraping</h3>
+                    <p>This Portfolioid is to showcase the designing skill using the Html and CSS</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work3">
+            <img src="02/IMG5.jpg" >
+                <div class="layer">
+                    <h3>Bus Ticket Reservation</h3>
+                    <p>This Portfolioid is to showcase the designing skill using the Html and CSS</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ...................Service..................... -->
+
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i> jerin@1308gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0074720173</p>
+                <div class="Social-icon">
+                    <a href="https://www.instagram.com/jerinjake/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jerin-abraham-01017a280/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Jerin1308" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="02/java_tutorial.pdf" download class="btn" >Download CV</a>
+            </div>
+            <div class="Contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="4" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="Portfolio.js"></script>
+
+</body>
+</html>
