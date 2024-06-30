@@ -11,13 +11,15 @@
 <div id="header">
     <div class="container">
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Portfolio">Projects</a></li>
+                    <li><a href="/02/Jerin_Abraham.docx">Resume</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
             <P>Portfolio</P>
@@ -47,9 +49,9 @@
                 </div>
                 <div class="tab-contents active-tab" id="skill">
                     <ul>
-                        <li><span>Web Development</span><br>HTML, CSS, Javascript</li>
-                        <li><span>Web App</span><br>Python, Java</li>
-                        <li><span>Database managment</span><br>MySQL</li>
+                        <li><span>Web Development</span><br>HTML, CSS, Javascript, Bootstrap</li>
+                        <li><span>Web App</span><br> Java, Python</li>
+                        <li><span>Database managment</span><br>MySQL, MongoDB</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
@@ -85,15 +87,15 @@
                     <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
-            <div class="work">
+            <div class="work1">
             <img src="02/IMG4.jpg" >
                 <div class="layer">
-                    <h3>Web Scraping</h3>
+                    <h3>WeScrapingb </h3>
                     <p>This Portfolioid is to showcase the designing skill using the Html and CSS</p>
                     <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div> 
-            <div class="work">
+            <div class="work2">
             <img src="02/IMG5.jpg" >
                 <div class="layer">
                     <h3>Bus Ticket Reservation</h3>
@@ -119,17 +121,18 @@
                     <a href="https://www.linkedin.com/in/jerin-abraham-01017a280/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/Jerin1308" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
-                <a href="02/java_tutorial.pdf" download class="btn" >Download CV</a>
+                <a href="/02/Jerin_Abraham.docx" download class="btn btn2" >Download CV</a>
             </div>
+
             <div class="Contact-right">
                 <form>
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="Email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" rows="4" placeholder="Your Message"></textarea>
-                    <button type="submit">Submit</button>
-                    
+                    <button type="submit" class="btn btn2">Submit</button>
                 </form>
             </div>
+
         </div>
     </div>
 </div>
